@@ -4,7 +4,7 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://ortv.iable.top', label: 'tv1', highlight: true },
-    { link: 'https://809098.xyz', label: 'Blog'},
+    { link: 'https://guantz-gtv.hf.space', label: 'Blog'},
     { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
     { link: 'https://github.com/amclubs', label: 'GitHub' }, 
   ],
@@ -24,9 +24,20 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://ortv.iable.top/',
+      target: 'https://ortv.iable.top',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://ortv.iable.top/',
+      statusPageLink: 'https://ortv.iable.top',
+      timeout: 10000,
+    },
+     {
+      id: 'detv',
+      name: 'detv',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://guantz-gtv.hf.space',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://guantz-gtv.hf.space',
       timeout: 10000,
     },
   ],
