@@ -3,7 +3,7 @@ const pageConfig = {
   title: "数字套利 •「AM科技」's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://amclubss.com', label: '博客', highlight: true },
+    { link: 'https://ortv.iable.top', label: 'tv1', highlight: true },
     { link: 'https://809098.xyz', label: 'Blog'},
     { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
     { link: 'https://github.com/amclubs', label: 'GitHub' }, 
