@@ -40,6 +40,28 @@ const workerConfig = {
       statusPageLink: 'https://guantz-gtv.hf.space',
       timeout: 10000,
     },
+     {
+      id: 'gtz tv',
+      name: 'gtz tv',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://gtztv.iable.top',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://gtztv.iable.top',
+      timeout: 10000,
+    },
+     {
+      id: 'gqfdy',
+      name: 'qfdy',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://qfdyqsyzdldo.sealosgzg.site'',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://qfdyqsyzdldo.sealosgzg.site',
+      timeout: 10000,
+    },
   ],
   notification: {
     // [Optional] apprise API server URL
