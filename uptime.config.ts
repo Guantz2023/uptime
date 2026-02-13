@@ -3,7 +3,8 @@ const pageConfig = {
   title: "gtz •「科技」's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://mu.iable.top/', label: 'music' }, 
+    { link: 'https://dy.iable.top', label: '订阅' }, 
+    { link: 'https://mu.iable.top', label: 'music' }, 
     { link: 'https://ktv.iable.top', label: 'tv1', highlight: true },
     { link: 'https://guantz-gtv.hf.space', label: 'detv'},
     { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
@@ -72,6 +73,17 @@ const workerConfig = {
       target: 'https://https://mu.iable.top',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://mu.iable.top',
+      timeout: 10000,
+    },
+    {
+      id: 'dingy',
+      name: '订阅',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://https://dy.iable.top',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://dy.iable.top',
       timeout: 10000,
     },
   ],
