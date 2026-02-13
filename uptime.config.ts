@@ -4,7 +4,7 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://ktv.iable.top', label: 'tv1', highlight: true },
-    { link: 'https://guantz-gtv.hf.space', label: 'Blog'},
+    { link: 'https://guantz-gtv.hf.space', label: 'detv'},
     { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
     { link: 'https://github.com/amclubs', label: 'GitHub' }, 
   ],
