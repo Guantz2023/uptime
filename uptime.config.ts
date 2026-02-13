@@ -55,17 +55,6 @@ const workerConfig = {
       timeout: 10000,
     },
      {
-      id: 'gtz tv',
-      name: 'gtz tv',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://gtztv.iable.top',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://gtztv.iable.top',
-      timeout: 10000,
-    },
-     {
       id: 'tv',
       name: 'tv',
       // `method` should be `TCP_PING` for tcp monitors
