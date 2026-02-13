@@ -62,6 +62,17 @@ const workerConfig = {
       statusPageLink: 'https://tv.iable.top',
       timeout: 10000,
     },
+    {
+      id: 'music',
+      name: '在线音乐',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://https://mu.iable.top',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://mu.iable.top',
+      timeout: 10000,
+    },
   ],
   notification: {
     // [Optional] apprise API server URL
