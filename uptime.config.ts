@@ -3,7 +3,7 @@ const pageConfig = {
   title: "gtz •「科技」's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://ortv.iable.top', label: 'tv1', highlight: true },
+    { link: 'https://ktv.iable.top', label: 'tv1', highlight: true },
     { link: 'https://guantz-gtv.hf.space', label: 'Blog'},
     { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
     { link: 'https://github.com/amclubs', label: 'GitHub' }, 
@@ -19,14 +19,14 @@ const workerConfig = {
   monitors: [
     // Example TCP Monitor
     {
-      id: 'ortv',
-      name: 'ortv',
+      id: 'ktv',
+      name: 'ktv',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://ortv.iable.top',
+      target: 'https://ktv.iable.top',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://ortv.iable.top',
+      statusPageLink: 'https://ktv.iable.top',
       timeout: 10000,
     },
      {
@@ -52,14 +52,14 @@ const workerConfig = {
       timeout: 10000,
     },
      {
-      id: 'gqfdy',
-      name: 'qfdy',
+      id: 'tv',
+      name: 'tv',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://qfdyqsyzdldo.sealosgzg.site',
+      target: 'https://tv.iable.top',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://qfdyqsyzdldo.sealosgzg.site',
+      statusPageLink: 'https://tv.iable.top',
       timeout: 10000,
     },
   ],
