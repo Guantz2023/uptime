@@ -3,6 +3,7 @@ const pageConfig = {
   title: "gtz •「科技」's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
+    { link: 'https://news.iable.top', label: '新闻' }, 
     { link: 'https://dy.iable.top', label: '订阅' }, 
     { link: 'https://mu.iable.top', label: 'music' }, 
     { link: 'https://ktv.iable.top', label: 'tv1', highlight: true },
@@ -20,6 +21,17 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     // Example TCP Monitor
+     {
+      id: 'nwes',
+      name: '新闻',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://https://news.iable.top',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://news.iable.top',
+      timeout: 10000,
+    },
     {
       id: 'ktv',
       name: 'ktv',
