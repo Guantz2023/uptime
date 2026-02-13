@@ -3,6 +3,7 @@ const pageConfig = {
   title: "gtz •「科技」's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
+    { link: 'https://mu.iable.top/', label: 'music' }, 
     { link: 'https://ktv.iable.top', label: 'tv1', highlight: true },
     { link: 'https://guantz-gtv.hf.space', label: 'detv'},
     { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
